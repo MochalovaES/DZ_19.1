@@ -257,7 +257,7 @@
     </div>
 
     <div class="b-example-divider"></div>
-
+    <div style="overflow: auto; width:1400px; height:100;">
     <div class="container">
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
@@ -340,6 +340,61 @@
                 </div>
             </div>
          </main>
+        <main class="row">
+            <div class="row text-center col-12">
+                <div>
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Таблица заказов</h4>
+                            </div>
+                        <div class="card-body">
+            <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">номер</th>
+                      <th scope="col">название товара</th>
+                      <th scope="col">цена за штуку</th>
+                      <th scope="col">количество</th>
+                      <th scope="col">итоговая сумма</th>
+                      <th scope="col">статус заказа</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-primary">
+                      <th scope="row">1</th>
+                      <td>стол</td>
+                      <td>2000 руб</td>
+                      <td>1</td>
+                      <td>2000 руб</td>
+                      <td>новый</td>
+                    </tr>
+                    <tr class="table-warning">
+                      <th scope="row">2</th>
+                      <td>стул</td>
+                      <td>1000 руб</td>
+                      <td>4</td>
+                      <td>4000 руб</td>
+                      <td>обработка</td>
+                    </tr>
+                    <tr class="table-success">
+                      <th scope="row">3</th>
+                      <td>мышка</td>
+                      <td>500 руб</td>
+                      <td>2</td>
+                      <td>1000 руб</td>
+                      <td>обработан</td>
+                    </tr>
+                    <tr class="table-danger">
+                      <th scope="row">4</th>
+                      <td>клавиатура</td>
+                      <td>1500 руб</td>
+                      <td>2</td>
+                      <td>3000 руб</td>
+                      <td>отмена</td>
+                    </tr>
+                  </tbody>
+            </table>
+        </div>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
